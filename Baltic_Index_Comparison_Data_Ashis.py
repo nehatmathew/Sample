@@ -7,6 +7,7 @@ Created on Tue Nov  7 15:57:48 2023
 This is Step 2. Run the Supramax.py file before running this file
 """
 import pandas as pd
+import numpy as np 
 from datetime import datetime
 
 baltic_data = pd.read_csv(str('C:/Users/NehaMathew/Documents/Baltic/Baltic Exchange - Historic_Step1_'+str(datetime.now().date())+'.csv'))
